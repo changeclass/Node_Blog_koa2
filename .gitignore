@@ -3,4 +3,5 @@
 /test/node_modules
 /test/**/node_modules
 /html-test/node_modules
+/koa2-test/node_modules
 /promise-test/node_modules
