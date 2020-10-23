@@ -11,8 +11,8 @@ const redisStore = require("koa-redis");
 // 配置
 const { REDIS_CONF } = require("./conf/db");
 
-const index = require("./routes/index");
-const users = require("./routes/users");
+// const index = require("./routes/index");
+// const users = require("./routes/users");
 const blog = require("./routes/blog");
 const user = require("./routes/user");
 
@@ -61,8 +61,8 @@ app.use(
   })
 );
 // routes
-app.use(index.routes(), index.allowedMethods());
-app.use(users.routes(), users.allowedMethods());
+// app.use(index.routes(), index.allowedMethods());
+// app.use(users.routes(), users.allowedMethods());
 app.use(blog.routes(), blog.allowedMethods());
 app.use(user.routes(), user.allowedMethods());
 
