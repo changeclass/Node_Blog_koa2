@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  F:\CMDER\vendor\bin;F:\CMDER\vendor\conemu-maximus5\ConEmu\Scripts;F:\CMDER\vendor\conemu-maximus5;F:\CMDER\vendor\conemu-maximus5\ConEmu;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Git\cmd;F:\TortoiseGit\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;%NVM_HOME%;%NVM_SYMLINK%;C:\Users\dream\AppData\Local\Microsoft\WindowsApps;F:\coding\Microsoft VS Code\bin;F:\coding\nvm;F:\coding;F:\coding\nvm;C:\Program Files\nodejs;F:\coding\WebStorm 2020.2.3\bin;F:\Bandizip\;F:\Git\mingw64\bin;F:\Git\usr\bin;F:\CMDER
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (F:\coding\nvm\v12.17.0\node_modules\yarn\lib\cli.js:137008:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:866:16)
+      at ReadStream.onkeypress (readline.js:205:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1133:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:295:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
